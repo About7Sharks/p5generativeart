@@ -6,7 +6,8 @@ let g;
 let b;
 
 function setup() {
-  createCanvas(512, 512);
+  console.log(window)
+  createCanvas(window.innerWidth, window.innerHeight);
   x = width / 2;
   y = height / 2;
   
